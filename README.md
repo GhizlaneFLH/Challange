@@ -17,5 +17,5 @@ Ce projet est un système de **RAG (Retrieval-Augmented Generation)** qui permet
 ### Étapes
 1. **Cloner le projet**
    ```bash
-   git clone <votre-lien-repo-github>
+   git clone https://github.com/GhizlaneFLH/Challange.git
    cd Challenge
