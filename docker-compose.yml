@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    volumes: ["./backend/data:/app/data", "./backend/vector_db:/app/vector_db"]
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+  frontend:
+    build: ./frontend
+    ports: ["3000:3000"]
