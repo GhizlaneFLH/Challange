@@ -6,7 +6,7 @@ Ce projet est un système de **RAG (Retrieval-Augmented Generation)** qui permet
 - Ingestion automatique de documents (PDF et TXT).
 - Découpage intelligent du texte (Text Splitting).
 - Recherche sémantique par embeddings.
-- Interface de chat (Frontend React/Vite).
+- Interface de chat (Frontend React).
 
 ##  Installation et Lancement
 
